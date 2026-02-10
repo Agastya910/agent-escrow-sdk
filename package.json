@@ -1,0 +1,26 @@
+{
+  "name": "agent-escrow-sdk",
+  "version": "1.0.0",
+  "description": "Production-grade Node.js SDK for AgentEscrowProtocol on Base mainnet",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "escrow",
+    "agent",
+    "base",
+    "usdc",
+    "ethereum",
+    "sdk"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "ethers": "^6.0.0"
+  }
+}
