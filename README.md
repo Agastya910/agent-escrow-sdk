@@ -1,6 +1,6 @@
 # Agent Escrow SDK
 
-Production-grade Node.js SDK for the **AgentEscrowProtocol** deployed on Base mainnet.
+Production-grade Node.js SDK for the [AgentEscrowProtocol](https://github.com/Agastya910/agent-escrow-protocol) deployed on Base mainnet.
 
 Enables autonomous agents and backends to create, manage, and settle USDC escrow agreements on-chain — with built-in reputation tracking and dispute resolution.
 
@@ -148,6 +148,7 @@ All write methods return `{ hash, receipt, gasUsed }`.
 | **Contract** | [`0x6AC844Ef070ee564ee40b81134b7707A3A4eb7eb`](https://basescan.org/address/0x6AC844Ef070ee564ee40b81134b7707A3A4eb7eb) |
 | **USDC** | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) |
 | **Protocol Fee** | 2.5% (250 basis points) |
+| **Source Code** | [Agastya910/agent-escrow-protocol](https://github.com/Agastya910/agent-escrow-protocol) |
 | **RPC** | `https://mainnet.base.org` |
 
 ## Security Notes
