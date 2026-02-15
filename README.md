@@ -2,7 +2,9 @@
 
 > The trust layer for autonomous agent payments — deployed, tested, and live on Base mainnet.
 
-**`agent-escrow-sdk`** is the official Node.js SDK for the [AgentEscrowProtocol](https://github.com/Agastya910/agent-escrow-protocol) — a production smart contract that lets AI agents pay each other safely using USDC on Base (Coinbase's L2 network).
+**`agent-escrow-sdk`** is the official Node.js SDK for the [AgentEscrowProtocol](https://github.com/Agastya910/agent-escrow-protocol) — a production smart contract that lets AI agents pay each other safely using USDC on Base (Coinbase's L2 network). 
+
+For research and educational purposes. No live service currently operated.
 
 ```bash
 npm install agent-escrow-sdk
@@ -219,16 +221,6 @@ All write methods return `{ hash, receipt, gasUsed }`.
 
 ---
 
-## Contract Details
-
-|                     |                                                                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **Network**         | Base Mainnet (Chain ID 8453)                                                                                            |
-| **Contract**        | [`0x6AC844Ef070ee564ee40b81134b7707A3A4eb7eb`](https://basescan.org/address/0x6AC844Ef070ee564ee40b81134b7707A3A4eb7eb) |
-| **USDC**            | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) |
-| **Protocol Fee**    | 2.5% (250 basis points)                                                                                                 |
-| **Protocol Source** | [Agastya910/agent-escrow-protocol](https://github.com/Agastya910/agent-escrow-protocol)                                 |
-| **RPC**             | `https://mainnet.base.org`                                                                                              |
 
 ## Security Notes
 
